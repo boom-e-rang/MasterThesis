@@ -1,0 +1,158 @@
+
+\documentclass[12pt]{nuthesis}	% The nuthesis class is based on 
+				% amsbook.cls.
+
+\usepackage{graphicx}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{subfigure}
+\newcommand{\argmin}{\operatornamewithlimits{arg\ min}}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{soul}
+
+\newtheorem{prop}{Proposition}
+
+% DATA OF AUTHOR AND DISSERTATION %
+
+
+\author{Aleksandra Kalinowska}
+
+\title{Shared Control for Robot-Aided Task Training and Robotic Assistance}
+
+\degree{MASTER OF SCIENCE}  % Default: DOCTOR OF PHILOSOPHY
+\field{Mechanical Engineering}
+\graduationmonth{December} 
+\graduationyear{2018}  
+
+\begin{document}
+
+\frontmatter		% Preliminary pages start here.
+\maketitle		% Produces the title page.
+\copyrightpage		% Creates the copyright page.
+
+\abstract		% Abstract.
+Robots have the potential to assist with both learning and executing difficult tasks, particularly in populations with motor deficit. However, adequate shared control schemes are needed to effectively allocate control between the human and the user to either facilitate training or provide assistance without unnecessarily limiting the user's intended actions. Here, we propose a shared control paradigm based on filtering that can be used for both training and assistance in human-robot interfaces with known tasks. We use a novel criterion for evaluating user input---the mode insertion gradient (MIG), commonly used in hybrid control---that allows us to instantaneously assess the impact of user actions on the evolution of a dynamic system over a time window into the future. As a result, the filter is permissive to many chosen strategies and minimally interfering---qualities desired when evaluating human actions.
+
+We explore a version of the shared control paradigm for assistance. We show in simulation that it is able to assist in task completion and enforce safety even for unskilled users simulated with Gaussian noise input. At the same time we show that, when possible, the interface remains transparent to users, particulary skilled users simulated using near-optimal model predictive controllers. Finally, given a stable controller for providing assistance, we show that this filter-based shared control scheme can to first order guarantee system safety with respect to a pre-defined objective. Future work will involve implementing the shared control paradigm for real-time assistance on hardware devices, such as a lower-limb exoskeleton.
+
+In parallel, we explore the shared control paradigm for task training. Through a human subject study, we show significant improvement in task learning using the proposed scheme. For the task of inverting a simulated cart pendulum, users continually improve when training with this filter-based feedback, while controls plateau shortly into the training and overall reach a lower skill level. Interestingly, we observe the shared control paradigm to exhibit multiple features that have, in previous studies, been shown to be conducive to learning. For one, it only rejects user actions, allowing failure at the task and avoiding user passivity. Secondly, it improves performance when actively engaged. And thirdly, it is sensitive to user skill level and real-time performance, behaving similarily to traditional assist-as-needed paradigms. Further experiments will involve studies of impaired individuals in clinically relevant tasks as well as direct comparisons with other assist-as-needed shared control schemes. 
+
+Overall there is significant interest in enabling difficult tasks or making them safer through online robotic assistance as well as in facilitating task training through forceful robotic interaction---the proposed filter-based shared control paradigm with MIG as an evaluation criterion can facilitate these human-robot collaborations. 
+
+
+\acknowledgements	% Acknowledgements (optional).
+
+acknowledgements here
+
+% \preface		% Preface (optional).
+
+% This is the preface.
+
+
+%% A few more optional pages (uncomment if needed)
+%
+%\listofabbreviations 
+%
+%This is the list of abbreviations (optional).
+%
+%\glossary
+%
+%This is the glossary (optional).
+%
+%\nomenclature
+%
+%This is the nomenclature (optional).
+%
+%% Note that the dedication text must be passed as an argument
+%% of the \dedication command
+%\dedication{This is the dedication (optional).}
+%
+
+\clearpage\phantomsection % needed for the hyperlinks to work correctly
+\tableofcontents	% Table of Contents will be automatically
+			% generated and placed here.
+
+\clearpage\phantomsection % needed for the hyperlinks to work correctly
+\listoftables		% List of Tables and List of Figures will be placed
+
+\clearpage\phantomsection % needed for the hyperlinks to work correctly
+\listoffigures		% here, if applicable (optional).
+
+
+
+\mainmatter             % Actual text starts here.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Actual text starts here %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% If there is an introduction it must be the first chapter
+
+\chapter{Introduction}	% The first chapter.
+\label{chapter: intro}
+\input{chap1_intro.tex}
+
+%\chapter{Related Work}
+%\label{chapter: relatedwork}
+%\input{chap2_relatedwork.tex}
+
+\chapter{Background and Methods}
+\label{chapter: methods}	
+\input{chap3_methods.tex}
+
+\chapter{Robotic Assistance with Minimal Interference}
+\label{chapter: assistance}
+\input{chap4_assistance.tex}
+
+\chapter{Training Through Forceful Interaction}
+\label{chapter: training}
+\input{chap5_training.tex}
+
+
+\chapter{Conclusions and Future Work}
+\label{chapter: conclusions}
+\input{chap6_conclusions.tex}
+
+% Uncomment the 'singlespace' environment and '\bibsep' command
+% if needed - some bibliographic styles overide the definition
+% of 'thebibliography' in nuthesis.cls
+%
+%\begin{singlespace}
+%\bibsep 12pt
+\clearpage\phantomsection % needed for hyperlikns to work correctly
+
+%\begin{thebibliography}{xxx}
+%
+%\bibitem{label1} A bibliographic item.  A bibliographic item.  A
+%bibliographic item.  A bibliographic item.
+%\bibitem{label2} Another bibliographic item.  
+%\bibitem{label3} Yet another bibliographic item.  
+%% The usages of \bibitem and \cite{..} are 
+%% explained in Section 4.3 (page 73) of % LaTeX manual.
+%% Or you may use BibTeX.
+%\end{thebibliography}
+%\end{singlespace}
+
+% (The following suggested by Francisco Iacobelli - 5/11/2010)
+% In case, you want to use BibTeX, you should replace (or comment)
+% the bibliography environment.
+% Instead uncomment the following 3 lines and replace <bib file>
+% with your .bib file:
+\renewcommand\refname{\begin{centering}References\end{centering}}
+\bibliography{references}
+
+\bibliographystyle{plain}%IEEEtran}
+%\bibliography{IEEEabrv,nxr}
+
+%
+%\appendix		% Appendix begins here (optional).
+
+
+\end{document}

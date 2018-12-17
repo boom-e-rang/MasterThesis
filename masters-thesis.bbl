@@ -1,0 +1,316 @@
+\begin{thebibliography}{10}
+
+\bibitem{hapticsharedcontrol_review}
+David~A Abbink, Mark Mulder, and Erwin~R Boer.
+\newblock Haptic shared control: smoothly shifting control authority?
+\newblock {\em Cognition, Technology \& Work}, 14(1):19--28, 2012.
+
+\bibitem{autovehicle2014}
+Javier Alonso-Mora, Pascal Gohl, Scott Watson, Roland Siegwart, and Paul
+  Beardsley.
+\newblock Shared control of autonomous vehicles based on velocity space
+  optimization.
+\newblock In {\em IEEE International Conf. on Robotics and Automation}, pages
+  1639--1645, 2014.
+
+\bibitem{SLIP_robot_evidence}
+Richard Altendorfer, Uluc Saranli, Haldun Komsuoglu, Daniel Koditschek,
+  H~Benjamin Brown, Martin Buehler, Ned Moore, Dave McMordie, and Robert Full.
+\newblock Evidence for spring loaded inverted pendulum running in a hexapod
+  robot.
+\newblock In {\em Experimental Robotics VII}, pages 291--302. 2001.
+
+\bibitem{alex_SAC}
+Alexander~R Ansari and Todd~D Murphey.
+\newblock Sequential action control: closed-form optimal control for nonlinear
+  and nonsmooth systems.
+\newblock {\em IEEE Transactions on Robotics}, 32(5):1196--1214, 2016.
+
+\bibitem{argall_keynote}
+Brenna~D Argall.
+\newblock Turning assistive machines into assistive robots.
+\newblock In {\em Quantum Sensing and Nanophotonic Devices XII}, volume 9370,
+  2015.
+
+\bibitem{survey_deviceabandonment}
+Elaine~A Biddiss and Tom~T Chau.
+\newblock Upper limb prosthesis use and abandonment: a survey of the last 25
+  years.
+\newblock {\em Prosthetics and Orthotics International}, 31(3):236--257, 2007.
+
+\bibitem{caldwell2016}
+Timothy~M Caldwell and Todd~D Murphey.
+\newblock Projection-based optimal mode scheduling.
+\newblock {\em Nonlinear Analysis: Hybrid Systems}, pages 59--83.
+
+\bibitem{assistance_in_distraction}
+Tom Carlson and Yiannis Demiris.
+\newblock Increasing robotic wheelchair safety with collaborative control:
+  Evidence from secondary task experiments.
+\newblock In {\em IEEE International Conf. on Robotics and Automation}, pages
+  5582--5587, 2010.
+
+\bibitem{cohen_statistics}
+Jacob Cohen.
+\newblock A power primer.
+\newblock {\em Psychological bulletin}, 112(1):155, 1992.
+
+\bibitem{contractive}
+Simone~Loureiro de~Oliveira~Kothare and Manfred Morari.
+\newblock Contractive model predictive control for constrained nonlinear
+  systems.
+\newblock {\em IEEE Transactions on Automatic Control}, 45(6):1053--1071, 2000.
+
+\bibitem{egerstedt2006}
+Magnus Egerstedt, Yorai Wardi, and Henrik Axelsson.
+\newblock Transition-time optimization for switched-mode dynamical systems.
+\newblock {\em IEEE Transactions on Automatic Control}, 51(1):110--115, 2006.
+
+\bibitem{ellis2016}
+Michael~D Ellis, Yiyun Lan, Jun Yao, and Julius~PA Dewald.
+\newblock Robotic quantification of upper extremity loss of independent joint
+  control or flexion synergy in individuals with hemiparetic stroke: a review
+  of paradigms addressing the effects of shoulder abduction loading.
+\newblock {\em Journal of NeuroEngineering and Rehabilitation}, 13(1):95, 2016.
+
+\bibitem{ellis2009}
+Michael~D. Ellis, Theresa Sukal-Moulton, and Julius P.~A. Dewald.
+\newblock Progressive shoulder abduction loading is a crucial element of arm
+  rehabilitation in chronic stroke.
+\newblock {\em Neurorehabilitation and Neural Repair}, 23(8):862--869, 2009.
+
+\bibitem{emken2007motor}
+Jeremy~L Emken, Raul Benitez, Athanasios Sideris, James~E Bobrow, and David~J
+  Reinkensmeyer.
+\newblock Motor adaptation as a greedy optimization of error and effort.
+\newblock {\em Journal of neurophysiology}, 97(6):3997--4006, 2007.
+
+\bibitem{emken2008}
+Jeremy~L Emken, Susan~J Harkema, Janell~A Beres-Jones, Christie~K Ferreira, and
+  David~J Reinkensmeyer.
+\newblock Feasibility of manual teach-and-replay and continuous impedance
+  shaping for robotic locomotor training following spinal cord injury.
+\newblock {\em IEEE Transactions on Biomedical Engineering}, 55(1):322--334,
+  2008.
+
+\bibitem{fisher2014}
+Moria~E Fisher, Felix~C Huang, Zachary~A Wright, and James~L Patton.
+\newblock Distributions in the error space: Goal-directed movements described
+  in time and state-space representations.
+\newblock In {\em IEEE International Conf. on Engineering in Medicine and
+  Biology}, pages 6953--6956, 2014.
+
+\bibitem{MDA_Katie}
+Kathleen Fitzsimons, Emmanouil Tzorakoleftherakis, and Todd~D Murphey.
+\newblock Optimal human-in-the-loop interfaces based on {M}axwell's {D}emon.
+\newblock In {\em American Control Conference}, pages 4397--4402, 2016.
+
+\bibitem{measurement_of_trust}
+Amos Freedy, Ewart DeVisser, Gershon Weltman, and Nicole Coeyman.
+\newblock Measurement of trust in human-robot collaboration.
+\newblock In {\em International Symposium on Collaborative Technologies and
+  Systems}, pages 106--114, 2007.
+
+\bibitem{vaseduvan_switchsys2010}
+Humberto Gonzalez, Ram Vasudevan, Maryam Kamgarpour, Shankar~S. Sastry, Ruzena
+  Bajcsy, and Claire Tomlin.
+\newblock A numerical method for the optimal control of switched systems.
+\newblock In {\em IEEE Conf. on Decision and Control}, pages 7519--7526.
+
+\bibitem{exoskeletons}
+Peter Gwynne.
+\newblock Technology: mobility machines.
+\newblock {\em Nature}, 503(7475):S16--S17, 2013.
+
+\bibitem{trust_factors}
+Peter~A Hancock, Deborah~R Billings, Kristin~E Schaefer, Jessie~YC Chen,
+  Ewart~J De~Visser, and Raja Parasuraman.
+\newblock A meta-analysis of factors affecting trust in human-robot
+  interaction.
+\newblock {\em Human Factors}, 53(5):517--527, 2011.
+
+\bibitem{RSS_exo2013}
+Walid Hassani, Samer Mohammed, and Yacine Amirat.
+\newblock Real-time {EMG} driven lower limb actuated orthosis for assistance as
+  needed movement strategy.
+\newblock In {\em Proceedings of Robotics: Science and Systems}, 2013.
+
+\bibitem{RSS_RoboObj2017}
+Sandy~H. Huang, David Held, Pieter Abbeel, and Anca~D. Dragan.
+\newblock Enabling robots to communicate their objectives.
+\newblock In {\em Proceedings of Robotics: Science and Systems}, 2017.
+
+\bibitem{kahn2004}
+LE~Kahn, WZ~Rymer, and DJ~Reinkensmeyer.
+\newblock Adaptive assistance for guided force training in chronic stroke.
+\newblock In {\em IEEE International Conf. on Engineering in Medicine and
+  Biology}, pages 2722--2725, 2004.
+
+\bibitem{myRSS_MIGMDA}
+Aleksandra Kalinowska, Kathleen Fitzsimons, Julius Dewald, and Todd~D Murphey.
+\newblock Online user assessment for minimal intervention during task-based
+  robotic assistance.
+\newblock 2018.
+
+\bibitem{krebs2003}
+Hermano~Igo Krebs, Jerome~Joseph Palazzolo, Laura Dipietro, Mark Ferraro,
+  Jennifer Krol, Keren Rannekleiv, Bruce~T Volpe, and Neville Hogan.
+\newblock Rehabilitation robotics: Performance-based progressive robot-assisted
+  therapy.
+\newblock {\em Autonomous Robots}, 15(1):7--20, 2003.
+
+\bibitem{lankenau2001}
+Axel Lankenau and Thomas Rofer.
+\newblock A versatile and safe mobility assistant.
+\newblock {\em IEEE Robotics \& Automation Magazine}, 8(1):29--37, 2001.
+
+\bibitem{conjugate_gradient}
+L.~Lasdon, S.~Mitter, and A.~Waren.
+\newblock The conjugate gradient method for optimal control problems.
+\newblock {\em IEEE Transactions on Automatic Control}, 12(2):132--138, 1967.
+
+\bibitem{marchal2009}
+Laura Marchal-Crespo and David~J Reinkensmeyer.
+\newblock Review of control strategies for robotic movement training after
+  neurologic injury.
+\newblock {\em Journal of Neuroengineering and Rehabilitation}, 6(1):20--35,
+  2009.
+
+\bibitem{lokomat_clinical_study}
+Andreas Mayr, Markus Kofler, Ellen Quirbach, Heinz Matzak, Katrin Fr{\"o}hlich,
+  and Leopold Saltuari.
+\newblock Prospective, blinded, randomized crossover study of gait
+  rehabilitation in stroke patients using the lokomat gait orthosis.
+\newblock {\em Neurorehabilitation and Neural Repair}, 21(4):307--314, 2007.
+
+\bibitem{teleBCI2017}
+Katharina Muelling, Arun Venkatraman, Jean-Sebastien Valois, John~E Downey,
+  Jeffrey Weiss, Shervin Javdani, Martial Hebert, Andrew~B Schwartz, Jennifer~L
+  Collinger, and J~Andrew Bagnell.
+\newblock Autonomy infused teleoperation with application to brain computer
+  interface controlled manipulation.
+\newblock {\em Autonomous Robots}, pages 1--22, 2017.
+
+\bibitem{surgeryrobot2004}
+Allison~M Okamura.
+\newblock Methods for haptic feedback in teleoperated robot-assisted surgery.
+\newblock {\em Industrial Robot: An International Journal}, 31(6):499--508,
+  2004.
+
+\bibitem{adaptive_review}
+Raja Parasuraman, Michael Barnes, Keryl Cosenzo, and Sandeep Mulgund.
+\newblock Adaptive automation for human-robot teaming in future command and
+  control systems.
+\newblock {\em The International C2 Journal}, 1(2):43--68, 2007.
+
+\bibitem{patton2006evaluation}
+James~L Patton, Mary~Ellen Stoykov, Mark Kovic, and Ferdinando~A Mussa-Ivaldi.
+\newblock Evaluation of robotic training forces that either enhance or reduce
+  error in chronic hemiparetic stroke survivors.
+\newblock {\em Experimental brain research}, 168(3):368--383, 2006.
+
+\bibitem{patton2006error}
+James~L Patton, Mary~Ellen Stoykov, Mark Kovic, and Ferdinando~A Mussa-Ivaldi.
+\newblock Evaluation of robotic training forces that either enhance or reduce
+  error in chronic hemiparetic stroke survivors.
+\newblock {\em Experimental Brain Research}, 168(3):368--383, 2006.
+
+\bibitem{reinkensmeyer2016intro}
+David~J Reinkensmeyer and Volker Dietz.
+\newblock Introduction: Rational for machine use.
+\newblock In {\em Neurorehabilitation Technology}, pages xvii--xxii. 2016.
+
+\bibitem{riener2005}
+Robert Riener, Lars Lunenburger, Saso Jezernik, Martin Anderschitz, Gery
+  Colombo, and Volker Dietz.
+\newblock Patient-cooperative strategies for robot-aided treadmill training:
+  first experimental results.
+\newblock {\em IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering}, 13(3):380--394, 2005.
+
+\bibitem{RSS_userpref2017}
+Dorsa Sadigh, Anca~D Dragan, Shankar Sastry, and Sanjit~A Seshia.
+\newblock Active preference-based learning of reward functions.
+\newblock In {\em Proceedings of Robotics: Science and Systems}, 2017.
+
+\bibitem{RSS_surgery2014}
+Siddharth Sanan, Stephen Tully, Andrea Bajo, Nabil Simaan, and Howie Choset.
+\newblock Simultaneous compliance and registration estimation for robotic
+  surgery.
+\newblock In {\em Proceedings of Robotics: Science and Systems}, 2014.
+
+\bibitem{schmidt1992new}
+Richard~A Schmidt and Robert~A Bjork.
+\newblock New conceptualizations of practice: Common principles in three
+  paradigms suggest new concepts for training.
+\newblock {\em Psychological Science}, 3(4):207--218, 1992.
+
+\bibitem{SLIP_for_running_nature}
+Manoj Srinivasan and Andy Ruina.
+\newblock Computer optimization of a minimal biped model discovers walking and
+  running.
+\newblock {\em Nature}, 439(7072):72, 2006.
+
+\bibitem{stienen2011}
+Arno~HA Stienen, Jacob~G McPherson, Alfred~C Schouten, and Jules~PA Dewald.
+\newblock The {ACT}-4{D}: a novel rehabilitation robot for the quantification
+  of upper limb motor impairments following brain injury.
+\newblock In {\em IEEE International Conf. on Rehabilitation Robotics}, pages
+  1--6, 2011.
+
+\bibitem{thoroughman2000learning}
+Kurt~A Thoroughman and Reza Shadmehr.
+\newblock Learning of action through adaptive combination of motor primitives.
+\newblock {\em Nature}, 407(6805):742, 2000.
+
+\bibitem{MDA_Emmanouil}
+Emmanouil Tzorakoleftherakis and Todd~D Murphey.
+\newblock Controllers as filters: Noise-driven swing-up control based on
+  {M}axwell's {D}emon.
+\newblock In {\em IEEE Conf. on Decision and Control}, pages 4368--4374, 2015.
+
+\bibitem{iSAC}
+Emmanouil Tzorakoleftherakis and Todd~D Murphey.
+\newblock Iterative sequential action control for stable, model-based control
+  of nonlinear systems.
+\newblock {\em IEEE Transactions on Automatic Control}, 2018.
+
+\bibitem{exoMPC2011}
+Letian Wang, Edwin~HF van Asseldonk, and Herman van~der Kooij.
+\newblock Model predictive control-based gait pattern generation for wearable
+  exoskeletons.
+\newblock In {\em IEEE International Conf. on Rehabilitation Robotics}, pages
+  1--6, 2011.
+
+\bibitem{modesched2012}
+Yorai Wardi and Magnus Egerstedt.
+\newblock Algorithm for optimal mode scheduling in switched systems.
+\newblock In {\em American Control Conference}, pages 4546--4551, 2012.
+
+\bibitem{RSS_shah_adaptive}
+Ronald Wilcox, Stefanos Nikolaidis, and Julie Shah.
+\newblock Optimization of temporal dynamics for adaptive human-robot
+  interaction in assembly manufacturing.
+\newblock In {\em Proceedings of Robotics: Science and Systems}, 2012.
+
+\bibitem{winstein1994effects}
+Carolee~J Winstein, Patricia~S Pohl, and Rebecca Lewthwaite.
+\newblock Effects of physical guidance and knowledge of results on motor
+  learning: support for the guidance hypothesis.
+\newblock {\em Research Quarterly for Exercise and Sport}, 65(4):316--323,
+  1994.
+
+\bibitem{wolbrecht2008}
+Eric~T Wolbrecht, Vicky Chan, David~J Reinkensmeyer, and James~E Bobrow.
+\newblock Optimizing compliant, model-based robotic assistance to promote
+  neurorehabilitation.
+\newblock {\em IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering}, 16(3):286--297, 2008.
+
+\bibitem{RSS2011_assistedteleoperation}
+Erkang You and Kris Hauser.
+\newblock Assisted teleoperation strategies for aggressively controlling a
+  robot arm with 2{D} input.
+\newblock In {\em Proceedings of Robotics: Science and Systems}, 2012.
+
+\end{thebibliography}

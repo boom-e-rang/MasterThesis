@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{subfigure}
+\newcommand{\argmin}{\operatornamewithlimits{arg\ min}}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{soul}
+
+\usepackage{amsthm}
+\newtheorem{prop}{Proposition}
+
+\begin{document}
+
+\section{MIG criterion}
+
+Descent proofs. XXX
+
+\begin{prop}
+\label{prop:: descent}
+	Consider systems with state $x$ and control $u$ and an objective given by \eqref{eq: XXX}. Then, the user input given by \eqref{eq: XXX} is a descent direction for all $t\in[t_o, t_f]$ and will decrease the cost if the MIG is negative for that $t\in[t_o, t_f]$. 
+\end{prop}
+	
+\begin{proof}
+Using a first-order Taylor expansion, we write
+
+\begin{equation}\label{eq:: Te1}
+J(v(t) + w(t)) \approx J(v(t)) + \frac{\partial J}{\partial u(t)}\Big\rvert_{v(t)}\cdot w(t). 
+\end{equation}
+
+For objectives of the form in \eqref{eq:: cost_wo_u}, we use the G\^ateaux derivative to calculate the gradient of the cost with respect to the control 
+\begin{align}
+\label{eq:: Te}
+\frac{d}{d\epsilon}J(v(t) + \epsilon w(t))\Big\rvert_{\epsilon=0} =& \int_{t_o}^{t_f} \rho(t)^TB(t)\cdot w(t)\,\mathrm{d}t.
+\end{align}
+
+From \eqref{eq:: Te1} and \eqref{eq:: Te}, the first-order change in cost can be approximated with 
+
+\begin{align*}
+\Delta J \approx \int_{t_o}^{t_f} \rho^T(t) B(t) \cdot w(t) \mathrm{d}t.
+\end{align*}
+
+Equivalently, using \eqref{eq:: MIG_noU}, we can write
+\begin{align*}
+\Delta J \approx \int_{t_o}^{t_f} \frac{dJ}{d\lambda_+} \mathrm{d}t, 
+\end{align*}
+
+
+We examine the case of the equality, such that 
+\begin{align*}
+\Delta J = 0 &\Leftrightarrow \rho^T(t) B(t) = 0~\forall~t\in[t_o, t_f]\\
+&\Leftrightarrow \frac{dJ_1}{d\lambda_+} = 0~\forall~t\in[t_o, t_f].
+\end{align*}
+
+If there exists $t\in[t_o,t_f]$ for which $dJ/d\lambda_+ < 0$, then $\Delta J <0$. 
+
+The change in cost, to first order, will be zero if and only if $\rho^T(t) B(t) = 0$ for all $t \in [t_o, t_f]$, which is the condition for a minimum according to Pontryagin's Maximum Principle (for objectives of the form in \eqref{eq:: cost_wo_u}).
+
+\end{proof}
+
+   
+
+\end{document}

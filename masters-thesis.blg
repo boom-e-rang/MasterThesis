@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: masters-thesis.aux
+The style file: plain.bst
+Database file #1: references.bib
+I was expecting a `,' or a `}'---line 251 of file references.bib
+ :   
+ :   year={2016}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 465 of file references.bib
+ :   
+ :   year={2010},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty publisher in SLIP_robot_evidence
+Warning--empty year in caldwell2016
+Warning--empty year in vaseduvan_switchsys2010
+Warning--empty booktitle in myRSS_MIGMDA
+Warning--empty publisher in reinkensmeyer2016intro
+You've used 51 entries,
+            2118 wiz_defined-function locations,
+            782 strings with 13863 characters,
+and the built_in function-call counts, 20362 in all, are:
+= -- 1979
+> -- 1044
+< -- 16
++ -- 415
+- -- 358
+* -- 1506
+:= -- 3260
+add.period$ -- 155
+call.type$ -- 51
+change.case$ -- 332
+chr.to.int$ -- 0
+cite$ -- 56
+duplicate$ -- 763
+empty$ -- 1550
+format.name$ -- 358
+if$ -- 4279
+int.to.chr$ -- 0
+int.to.str$ -- 51
+missing$ -- 51
+newline$ -- 258
+num.names$ -- 102
+pop$ -- 355
+preamble$ -- 1
+purify$ -- 281
+quote$ -- 0
+skip$ -- 565
+stack$ -- 0
+substring$ -- 1342
+swap$ -- 209
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 204
+warning$ -- 5
+while$ -- 195
+width$ -- 53
+write$ -- 552
+(There were 2 error messages)
